@@ -1,0 +1,163 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Roboto;
+}
+
+
+/** Configuration de la scrollbar **/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #b6b6b6;
+}
+
+
+/** Liens généraux **/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/** Barre de navigation **/
+
+.navbar {
+    position: fixed;
+    display: inline;
+    background: linear-gradient(201deg, #2d7ec2 0%, #374c9c 20%, #a080b9 100%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    z-index: 100;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar-brand {
+    float: left;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-brand img {
+    float: left;
+}
+
+.navbar-txt {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.navbar-nav {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+/** Titres **/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    top: 60px;
+    left: 50px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    top: 90px;
+    position: relative;
+    margin-bottom: 94px;
+}
+
+
+/** Contenu de la page **/
+
+.contenu {
+    display: flex;
+}
+
+.une {
+    width: 70%;
+}
+
+.article_1 {
+    border: 1px solid black;
+    margin: 20px;
+    height: 615px;
+}
+
+.lateral {
+    width: 30%;
+}
+
+.plus_article_1 {
+    border: 1px solid black;
+    height: 298px;
+    margin: 0px 20px 18px 0px;
+}
+
+
+/** Bas de page **/
+
+.footer {
+    background: linear-gradient(201deg, #2d7ec2 0%, #374c9c 20%, #a080b9 100%);
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    color: rgb(236, 236, 236);
+    height: 40px;
+}
+
+.footer-credits {
+    text-transform: uppercase;
+    margin-left: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 14px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.footer-follow {
+    text-transform: uppercase;
+    font-size: 11px;
+    float: right;
+}
+
+.footer-txt {
+    padding-top: 14px;
+    display: inline-block;
+}
+
+.footer-link img {
+    margin-right: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    float: right;
+}
